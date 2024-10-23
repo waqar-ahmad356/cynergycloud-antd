@@ -1,0 +1,94 @@
+.navbar {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 16px 94px;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 47px;
+  }
+  
+  .navbar-logo {
+    cursor: pointer;
+    width: 266px;
+    height: 55px;
+  }
+  
+  .desktop-menu {
+    display: flex;
+    gap: 18px;
+  }
+  .desktop-menu {
+    color: var(--Heading-color, #0f172a);
+    font-family: "DM Sans";
+    font-size: 18.822px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23.528px; /* 125% */
+    letter-spacing: 0.376px;
+    
+  }
+  .menu-link:hover{
+    border-bottom: none;
+  }
+  
+  .desktop-buttons {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+  
+  .login-link {
+    color: #22739c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .signup-button {
+    background-color: #22739c;
+    border: 2px solid #22739c;
+    font-size: 18px;
+    color: white;
+    width: 129px;
+    height: 57px;
+  }
+  .signup-button:hover {
+    background-color: #22739c;
+  }
+  
+  .mobile-menu-button {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px;
+    }
+    .navbar-container {
+      gap: 20px;
+    }
+    .navbar-logo {
+      cursor: pointer;
+      width: 150px;
+      height: 30px;
+    }
+  
+    .desktop-menu,
+    .desktop-buttons {
+      display: none;
+    }
+  
+    .mobile-menu-button {
+      display: inline-block;
+    }
+  
+    .mobile-menu-drawer .ant-menu-item {
+      text-align: center;
+    }
+  }
+  
