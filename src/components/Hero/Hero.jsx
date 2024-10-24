@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <>
       {/* Hero Section: Main container for the hero content */}
-      <div style={{padding:screens.lg?"94px 94px 0px 94px":"16px 16px 0px 16px"}}>
+      <div style={{padding:screens.lg?"":""}}>
         <Row
           justify="center"
           align="middle"
@@ -22,7 +22,7 @@ const Hero = () => {
         >
           {/* Text Content: Heading and description */}
           <Col style={{display:"flex",flexDirection:"column",gap:screens.lg?"16px":"8px"}} >
-            <div  style={{ textAlign: "center"}}>
+            <div  style={{ textAlign: "center",padding:screens.lg?"94px 94px 0px 94px":"16px"}}>
               {/* Hero Heading */}
               <Title 
               className="hero-heading"
@@ -58,7 +58,7 @@ const Hero = () => {
 
           {/* Button Section: Start For Free button */}
           <Col style={{marginBottom:screens.lg?"94px":"46px"}}>
-            <div >
+            <div  >
               {/* Button Text */}
               <Button
                className="start-btn"
@@ -84,7 +84,7 @@ const Hero = () => {
         {/* Image Section: Displays the desktop image and background animation */}
         <Row justify="center" align="middle" style={{ position: "relative" }}>
           {/* Image Section: Displays the desktop image */}
-          <Col>
+          <Col style={{padding:screens.lg?"94px 94px 0px 94px":"16px"}}>
             <img
               src={desktop}
               alt=""
@@ -98,24 +98,25 @@ const Hero = () => {
               }}
             />
 
-            {/* Background Animation 
+           
+          </Col>
+          
             <div
               className="background-animation"
               style={{
                 position: "absolute",
-                top: screens.lg?"-40%":"-20%",
+                top: screens.lg?"-15%":"-10%",
                 left:0,
                 display:"inline",
                 width: "100%",
                 height: "100%",
-               
+                backgroundImage:'url(/images/hero-animation.png)',
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 zIndex: -1,
                 
               }}
-            />*/}
-          </Col>
+            />
         </Row>
       </div>
     </>
