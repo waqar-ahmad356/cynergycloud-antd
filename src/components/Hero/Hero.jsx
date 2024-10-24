@@ -4,6 +4,7 @@ import arrow from "../../assets/arrow.png"; // Arrow icon for the button
 import desktop from "../../assets/desktop-app.png"; // Image for desktop view in hero section
 
 import './Hero.css'; // Create a separate CSS file for additional styling if needed
+import Autotyping from "../AutoTyping/AutoTyping";
 
 const { Title, Paragraph } = Typography;
 const { useBreakpoint } = Grid;
@@ -32,9 +33,9 @@ const Hero = () => {
                   fontSize:screens.lg? "56px":"24px" // Fixed font size for larger screens
                 }}
               >
-                Unlock Seamless 
+                Unlock Seamless  
                 <br className="mobile-only" />
-                Creativity 
+                <Autotyping/>
                 <br className="mobile-only" />
                 with SynergyCloud: 
                 
