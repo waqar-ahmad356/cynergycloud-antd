@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel, Card, Typography, Grid } from "antd";
 import { Row, Col } from "antd";
 import testimonial_icon from "../../assets/testimonial-icon.png"; // Import the icon
-import "./slider.css"; // Import custom styles for smooth scrolling
+import "./Slider.css"; // Import custom styles for smooth scrolling
 
 const{useBreakpoint}=Grid;
 // Testimonials array
