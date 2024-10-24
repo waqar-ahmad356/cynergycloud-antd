@@ -36,7 +36,9 @@ const Hero = () => {
                 <br className="mobile-only" />
                 Creativity 
                 <br className="mobile-only" />
-                with SynergyCloud: Where Teams Connect and Ideas Flourish!
+                with SynergyCloud: 
+                
+                Where Teams Connect and Ideas Flourish!
               </Title>
               {/* Hero Description */}
               <Paragraph 

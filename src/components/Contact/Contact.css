@@ -1,0 +1,14 @@
+
+.ant-input-outlined{
+    border: none;
+    border-radius: 0;
+    
+
+}
+.ant-input-outlined:focus{
+    box-shadow: none;
+    background-color: #fff;
+}
+.ant-input-outlined:active{
+    background-color: #fff;
+}
