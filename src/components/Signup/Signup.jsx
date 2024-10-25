@@ -32,8 +32,8 @@ const Signup = () => {
           </Typography.Title>
 
           {/* Signup Form */}
-          <form style={{}}>
-            <Row gutter={[16, 35]}>
+          <form >
+            <Row gutter={[16,40]}  >
               {/* Full Name Input */}
               <Col span={24} style={{paddingLeft:"0px",paddingRight:"0px"}}>
                 <div>

@@ -35,7 +35,7 @@ const Hero = () => {
               >
                 Unlock Seamless  
                 <br className="mobile-only" />
-                <Autotyping/>
+               <span style={{padding:"0px 5px"}}> <Autotyping/></span>
                 <br className="mobile-only" />
                 with SynergyCloud: 
                 

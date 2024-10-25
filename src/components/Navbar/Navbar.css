@@ -5,6 +5,10 @@
     z-index: 1000;
     padding: 16px 94px;
   }
+  .ant-menu-item:hover::after{
+         border-bottom-width: 0px; 
+    border-bottom-color: none;
+  }
  
   .navbar-container {
     display: flex;

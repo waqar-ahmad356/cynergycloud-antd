@@ -14,8 +14,8 @@ const Autotyping = () => {
   const [isDeleting, setIsDeleting] = useState(false); // Flag to check if text is being deleted
   const [charIndex, setCharIndex] = useState(0); // Index of the character currently being typed or deleted
   
-  const typingSpeed = 150; // Typing speed in milliseconds
-  const deletingSpeed = 100; // Deleting speed in milliseconds
+  const typingSpeed = 200; // Typing speed in milliseconds
+  const deletingSpeed = 150; // Deleting speed in milliseconds
   const pauseDuration = 200; // Pause duration before starting a new word or deleting
 
   useEffect(() => {
@@ -55,7 +55,7 @@ const Autotyping = () => {
   }, [isDeleting, charIndex, textIndex, texts]); // Dependency array to re-run effect when these values change
 
   return (
-    <div component="span" style={{ display: "inline-block", whiteSpace: "nowrap",marginX:"6px", color: "#1E719B", fontWeight: "bold",  }}>
+    <div component="span" style={{ display: "inline-block", whiteSpace: "nowrap",paddingX:"6px", color: "#1E719B", fontWeight: "bold",  }}>
       {displayText} {/* Render the auto-typing text */}
     </div>
   );

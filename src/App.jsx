@@ -9,6 +9,7 @@ import Slider from './components/Swiper/CounterSlider'
 import CountinuousSlider from './components/Swiper/CounterSlider'
 import Contact from './components/Contact/Contact'
 import Signup from './components/Signup/Signup'
+import Pricing from './components/Pricing/Pricing'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
     <Navbar/>
     <Hero/>
     <About/>
+    <Pricing/>
     <Testimonials/>
     <Signup/>
     <Contact/>
